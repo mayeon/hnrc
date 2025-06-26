@@ -46,6 +46,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home(Model model) {
+        // Push test
         model.addAttribute("message", "Hello, Spring MVC with Maven!");
 
         SiteBoard siteBoard = siteBoardMapper.findByPageName("notice");
