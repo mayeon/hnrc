@@ -1,0 +1,146 @@
+
+/* For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.-Jhon3:16- */
+/* HTML5 display-role reset for older browsers */
+main,article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+hr{box-sizing:content-box;height:0}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button{overflow:visible}
+button,select{text-transform:none}
+html input[type=button],input[type=reset],input[type=submit]{cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+
+html,body,input,select,textarea,td,th,p,div,h1,h2,h3,h4,h5,h6,ul,li,dt,dd,a,form, label,strong,small,table{font-family:'Noto Sans KR', sans-serif; vertical-align: baseline;}
+:lang(zh), .zh { font-family: '宋體', 'simsun', Arial;  }
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,dt,dl,a,img, input, table, td, tr, th,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot,
+article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video,div, span,
+object, iframe,abbr, address, big, cite, code,del, dfn, em, img, ins, small, strike, strong, sub, sup, var, center{margin:0; padding:0;border: 0;font-size: 100%;vertical-align: baseline;}
+a{text-decoration:none; color:inherit; display:inline-block;  cursor:pointer;}
+a:link, a:visited, a:active{text-decoration:none;}
+ul, dl{list-style:none;}
+img, input, select{border:none; vertical-align:middle;}
+.clearfix{zoom:1}
+.clearfix:after{clear:both; display:block; content:""; height:0px; visibility:hidden;}
+.ellipsis{ overflow:hidden; text-overflow:ellipsis;white-space:nowrap;}
+/* table */
+table {border-collapse:collapse; border-spacing: 0;}
+th, td { border-collapse:collapse; border-spacing: 0; vertical-align:middle;}
+/* form */
+form, fieldset { display:inline; }
+textarea{vertical-align:top; text-align:left; border:none;}
+fieldset, blockquote, iframe, button{ border:none; }
+/* 아이폰의 input 라운드 초기화 *//* form 요소의 디바이스 기반 스타일 초기화 */
+input[type=text]{border-radius:0px 0px;-moz-appearance:none;-webkit-appearance:none;appearance: none;}
+/* select{border-radius:0px 0px;-moz-appearance:none;-webkit-appearance:none;appearance: none;} */
+select{border-radius:0px 0px;}
+textarea{-moz-appearance:none;-webkit-appearance:none;appearance: none;-ms-appearance:none;}
+select::-ms-expand { display: none;}/*IE 10,11의 네이티브 화살표숨기기*/
+/*텍스트 size 자동 조정 기능*/
+
+
+
+
+a, abbr, acronym, address, applet, article, aside, audio,b, blockquote, big, body,center, canvas, caption, cite, code, command,datalist, dd, del, details, dfn, dl, div, dt, em, embed,fieldset, figcaption, figure, font, footer, form, header, hgroup, html,i, iframe, img, ins,kbd, keygen,label, legend, meter,nav,object, ol, output,p, pre, progress,q, s, samp, section, small, span, source, strike, strong, sub, sup,table, tbody, tfoot, thead, th, tr, tdvideo, tt,u, ul, var, li
+{ font-family: "Noto Sans KR", "Open Sans", "malgun gothic", "Nanum Gothic", dotum, arial, sans-serif; font-size:14px; font-weight:normal; }
+/*@font-face {*/
+/*    font-family: 'Noto Sans KR';*/
+/*    font-style: normal;*/
+/*    font-weight: 100;*/
+/*    src: url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Thin.woff2') format('woff2'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Thin.woff') format('woff'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Thin.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Noto Sans KR';*/
+/*    font-style: normal;*/
+/*    font-weight: 300;*/
+/*    src: url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Light.woff2') format('woff2'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Light.woff') format('woff'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Light.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Noto Sans KR';*/
+/*    font-style: normal;*/
+/*    font-weight: 350;*/
+/*    src: url('http://www.seoulfarmer.org/common/fonts/NotoSans-DemiLight.woff2') format('woff2'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSans-DemiLight.woff') format('woff'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSans-DemiLight.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Noto Sans KR';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    src: url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Regular.woff2') format('woff2'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Regular.woff') format('woff'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Regular.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Noto Sans KR';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    src: url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Medium.woff2') format('woff2'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Medium.woff') format('woff'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Medium.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Noto Sans KR';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    src: url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Bold.woff2') format('woff2'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Bold.woff') format('woff'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Bold.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Noto Sans KR';*/
+/*    font-style: normal;*/
+/*    font-weight: 900;*/
+/*    src: url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Black.woff2') format('woff2'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Black.woff') format('woff'),*/
+/*    url('http://www.seoulfarmer.org/common/fonts/NotoSansKR-Black.otf') format('opentype');*/
+/*}*/
+
+body{
+-moz-text-size-adjust: none;
+-webkit-text-size-adjust: none;
+-ms-text-size-adjust: none;
+text-size-adjust: none;
+font-family: 'Noto Sans KR', sans-serif;
+	}
+/*모바일 링크연결,이미지저장,하이라이트 비활성화*/
+html,body{
+ -webkit-touch-callout : none;
+/* -moz-user-select: none;
+ -webkit-user-select: none;
+ -ms-user-select: none;
+ user-select : none;*/
+ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img, video{ max-width:100%;}
+/*.slideli01 { background-image: url("https://journal-home.s3.ap-northeast-2.amazonaws.com/site/icpe2023b/icpe_main_resize.png")}*/
+/*input[placeholder]{color:#fff!important;font-size:14px;font-size:1rem; }
+input::-webkit-input-placeholder{color:#fff!important;font-size:14px;font-size:1rem; }
+input::-moz-input-placeholder{color:#fff!important;font-size:14px;font-size:1rem;}
+input::-ms-input-placeholder{color:#fff!important;font-size:14px;font-size:1rem;}*/
+/**********************반응형 기본 구조*******************************/
+/*@media screen and (min-width:1300px){.container{width:1200px;margin:0 auto;}}*/
+/*@media (min-width:1025px) and (max-width:1299px){.container{padding:0 50px;}}
+@media (min-width:768px) and (max-width:1024px){.container{padding:0 20px;}}
+@media (max-width:767px){.container{padding:0 10px;}}*/
+
+/* .visible-M, .visible-sM, .visible-G{display:none!important}
+@media (max-width:767px){.visible-M{display:block!important}.hidden-M{display:none!important}}
+@media (min-width:501px) and (max-width:767px){.visible-G{display:block!important}}
+@media (max-width:500px){.visible-sM{display:block!important}.hidden-sM{display:none!important}}
+
+@media (max-width:360px){html{font-size:11px;}}
+@media (min-width:361px) and (max-width:767px){html{font-size:12px;}}
+@media (min-width:768px) and (max-width:1199px){html{font-size:13px;}}
+@media (min-width:1200px){html{font-size:14px;}} */
+
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);*/
+/****************폰트**********************/
+/****************폰트**********************/
+
+
+.font_m{font-family: 'Montserrat', sans-serif;}
